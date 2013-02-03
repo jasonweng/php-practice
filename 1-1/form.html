@@ -1,6 +1,16 @@
+<style type="text/css" media="screen">
+	th{
+		background-color: #ddd;
+		padding: 10px;
+	}
+	td{
+		padding: 10px;
+	}
+</style>
+
 <form action="processorder.php" method="post" accept-charset="utf-8">
 	
-	<table>
+	<table width="50%">
 		<thead>
 			<tr>
 				<th>item</th>
@@ -20,6 +30,22 @@
 				<td>spark plugs</td>
 				<td><input type="text" name="sparkqty" /></td>
 			</tr>
+			<tr>
+				<td>Shipping address</td>
+				<td><input type="text" name="address" size="35" /></td>
+			</tr>
+			<!-- <tr>
+				<td>How did you find me?</td>
+				<td>
+					<select name="find">
+						<option value="">please select</option>
+						<option value="a">I'm a regular customer</option>
+						<option value="b">TV advertising</option>
+						<option value="c">Phone directory</option>
+						<option value="d">Word of mouth</option>
+					</select>
+				</td>
+			</tr> -->
 			<tr>
 				<td colspan="2"><button type="submit">submit</button></td>
 			</tr>

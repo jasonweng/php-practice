@@ -12,7 +12,7 @@
 
 		$varname = 't';
 
-		echo TPRICE;
+		// echo TPRICE;
 
 		// echo $php_errormsg
 
@@ -31,15 +31,16 @@
 		// echo $bb;
 
 		$out = `ls -la`;
-		echo '<pre>'. $out .'</pre>';
+		// echo '<pre>'. $out .'</pre>';
 
 		class sampleClass{};
 		$myObj = new sampleClass();
 
 		if ( $myObj instanceof sampleClass ){
-			echo "myObj is a instance of sampleClass";
+			// echo "myObj is a instance of sampleClass";
 		}
 		
+		// for( $s=1; $i<= )
 
 	?>
 
