@@ -8,9 +8,11 @@
 		exit;
 	}
 
-	while (!feof($fp)) {
-		$order = fgets($fp,999);
-		echo $order."<br>";
-	}
+	// while (!feof($fp)) {
+	// 	$order = fgets($fp,999);
+	// 	echo $order."<br>";
+	// }
+
+	// readfile( "orders/orders.txt" );
 
  ?>
